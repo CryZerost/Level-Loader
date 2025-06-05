@@ -13,7 +13,7 @@ public class LevelLoader : MonoBehaviour
     {
         /*if (Input.GetKeyDown(KeyCode.Alpha8))
         {
-            LoadLevel(0);
+            LoadLevel(0); // this one i use to skip the cutscene when development
         }*/
     }
 
@@ -46,7 +46,7 @@ public class LevelLoader : MonoBehaviour
                 lastLoggedProgress = progress;
             }
 
-            // Update loading UI (e.g., progress bar) here
+            // Update your customie Loading UI here.
 
             // Calculate the elapsed time
             float elapsedTime = Time.time - startTime;
